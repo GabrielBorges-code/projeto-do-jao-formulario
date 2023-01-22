@@ -1,4 +1,19 @@
-{   
+{
   "dados-financeiros": [
+    {
+      "name": "Gabriel",
+      "id": 1
+    },
+    {
+      "name": "Gabriel",
+      "id": 2
+    },
+    {
+      "name": "newsletter",
+      "cpf": "12312312343",
+      "phone": "(61)98583-0508",
+      "email": "gabibook2@gmail.com",
+      "id": 3
+    }
   ]
 }

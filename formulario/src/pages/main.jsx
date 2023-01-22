@@ -1,9 +1,18 @@
-import React from 'react'
+import React from "react";
+import Footer from "../components/Footer";
+import Form from "../components/Form";
+import Header from "../components/Header";
 
 const main = () => {
   return (
-    <div>main</div>
-  )
-}
+    <div className="container">
+      <Header />
+      <h1>Para te conhecer melhor</h1>
 
-export default main
+      <Form />
+      <Footer/>
+    </div>
+  );
+};
+
+export default main;
