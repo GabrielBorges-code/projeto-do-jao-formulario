@@ -38,27 +38,27 @@ const Form = () => {
     <div className="row">
       <form onSubmit={handleForm}>
         <label className="col-lg-12">
-          Nome <br/>
-          <input type="text" name="name" onChange={(e) => setName(e.target.value)} />
+          Nome do responsável financeiro <br/>
+          <input type="text" name="name" onChange={(e) => setName(e.target.value)} placeholder="Nome"/>
         </label>
 
         <label className="col-lg-12">
           CPF <br/>
-          <input type="text" name="cpf" onChange={(e) => setCpf(e.target.value)} />
+          <input type="text" name="cpf" onChange={(e) => setCpf(e.target.value)} placeholder="CPF" />
         </label>
 
         <label className="col-lg-12">
-          Telefone: <br/>
-          <input type="tel" name="phone" onChange={(e) => setPhone(e.target.value)} />
+          Telefone <br/>
+          <input type="tel" name="phone" onChange={(e) => setPhone(e.target.value)} placeholder="Ex: (DDD) XXXX-XXXX"/>
         </label>
 
         <label className="col-lg-12">
-          E-mail: <br/>
-          <input type="email" name="email" onChange={(e) => setEmail(e.target.value)} />
+          E-mail <br/>
+          <input type="email" name="email" onChange={(e) => setEmail(e.target.value)} placeholder="usuario@unotelemdicina.com.br"/>
         </label>
 
-        <label className="col-lg-12">
-          Sexo: <br/>
+        <label className="col-lg-12" >
+          Sexo <br/>
           <select name="sex" onChange={(e) => setSex(e.target.value)}>
             <option value="m">Masculino</option>
             <option value="f">Feminino</option>
